@@ -69,6 +69,9 @@ export default class App extends Component {
           playlistIsPlaying={this.state.playlistIsPlaying} />
         </div>
         <ReactMediaVisualizer
+          style={{
+            zIndex: '100',
+          }}
           playlist={this.state.playlist}
           receiveStateUpdates={this.receiveStateUpdates}
           playlistIsPlaying={this.state.playlistIsPlaying}
