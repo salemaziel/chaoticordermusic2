@@ -12,6 +12,8 @@ import Logowhite from '../images/logo-white.png'
 
 import Visualizer from './visualizer'
 
+import Rmusic2 from './Rmusic2'
+
 class Container01 extends React.Component {
     render() {
       return (
@@ -19,7 +21,7 @@ class Container01 extends React.Component {
           <div className={container01Styles.inner}> 
             <div className={container01Styles.afterSpacer}>
                 
-              <h2 id="text01" className={container01Styles.style1}>Feed The People</h2>
+              {/*<h2 id="text01" className={container01Styles.style1}>Feed The People</h2>*/}
               {/**<hr id="divider03" />**/}
               {/*<p id="text02" className={container01Styles.style2}>Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. </p>*/}
               {/**<ResponsivePlayer01 />**/}
@@ -38,6 +40,7 @@ class Container01 extends React.Component {
             <Visualizer />
               <br />
               <hr />
+              <Rmusic2 />
           </div>
         </div>
       )

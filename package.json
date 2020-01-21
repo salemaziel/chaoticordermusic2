@@ -1,6 +1,6 @@
 {
   "name": "chaotic-order-music",
-  "homepage": "https://salemaziel.com",
+  "homepage": "https://chaoticorder.netlify.com",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -8,6 +8,7 @@
     "@emotion/core": "^10.0.27",
     "jsmediatags": "^3.8.1",
     "prop-types": "^15.6.2",
+    "rc-switch": "^1.9.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.1",
@@ -16,7 +17,8 @@
     "react-media-visualizer": "^1.1.1",
     "react-player": "^1.14.2",
     "react-scripts": "^1.1.4",
-    "react-web-media-player": "^1.1.5"
+    "react-web-media-player": "^1.1.5",
+    "sweetalert": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -6,13 +6,14 @@ import Navbar from './components/Navbar'
 
 import './css/main.css'
 
-import Container01a from './components/container01a'
+import Container01 from './components/container01'
 import Container02 from './components/container02'
 import Container03 from './components/container03'
 import Container04 from './components/container04'
 
 import Logo from './images/logo-white-huge.png'
 import Albumcover from './images/album-cover.jpg'
+
 
 export default class App extends Component {
   constructor(props) {
@@ -37,6 +38,7 @@ export default class App extends Component {
           <div className="inner">
         <section id="home-section">
         <div id="containerHeader" className="container default full screen">
+        
              <img className='albumpromo' src={Albumcover} alt='' mode='fit' width={500} height={500} />
                 <div className="inner">
                  
@@ -50,11 +52,10 @@ export default class App extends Component {
                       textAlign: 'center',
                       color: '#FCAC02',
                     }}
-                    > Feed The People - available now!</p>
-                
+                  > Feed The People - available now!</p>
                 </div>
               </div>
-        <Container01a />
+        <Container01 />
         
         
         {/*<div className="react-media-vis-body">
@@ -77,6 +78,7 @@ export default class App extends Component {
           playlistIsPlaying={this.state.playlistIsPlaying}
           theme={this.state.theme}
         currentSongIndex={this.state.currentSongIndex} />*/}
+
         <Container02 />
         <Container03 />
         </section>

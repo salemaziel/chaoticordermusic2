@@ -46,7 +46,7 @@ export default class Visualizer extends Component {
             handleThemeChange={this.handleThemeChange}
           playlistIsPlaying={this.state.playlistIsPlaying} />
         </div>
-        <ReactMediaVisualizer
+        {/*<ReactMediaVisualizer
           style={{
             zIndex: '100',
           }}
@@ -54,7 +54,7 @@ export default class Visualizer extends Component {
           receiveStateUpdates={this.receiveStateUpdates}
           playlistIsPlaying={this.state.playlistIsPlaying}
           theme={this.state.theme}
-        currentSongIndex={this.state.currentSongIndex} />
+        currentSongIndex={this.state.currentSongIndex} />*/}
         </section>
         
  
