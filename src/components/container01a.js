@@ -12,7 +12,7 @@ import Logowhite from '../images/logo-white.png'
 
 import Visualizer from './visualizer'
 
-class Container01 extends React.Component {
+class Container01a extends React.Component {
     render() {
       return (
       <div id="container01" className="container columns full screen" data-scroll-id="one" data-scroll-behavior="center"  /*className={container01Styles.columns} className={container01Styles.full} className={container01Styles.full.screen}*/>
@@ -21,7 +21,7 @@ class Container01 extends React.Component {
                 
               <h2 id="text01" className={container01Styles.style1}>Feed The People</h2>
               {/**<hr id="divider03" />**/}
-              {/*<p id="text02" className={container01Styles.style2}>Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. </p>*/}
+              <p id="text02" className={container01Styles.style2}>Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. </p>
               {/**<ResponsivePlayer01 />**/}
               {/*<ReactWebMediaPlayer
 	            width={500} height={350}
@@ -34,8 +34,9 @@ class Container01 extends React.Component {
 	                }}
                 />*/}
               {/*<Mediaplayer01 />*/}
+              <Visualizer />
             </div>
-            <Visualizer />
+            
               <br />
               <hr />
           </div>
@@ -44,4 +45,4 @@ class Container01 extends React.Component {
     }
 }
 
-export default Container01
+export default Container01a
