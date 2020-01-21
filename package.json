@@ -12,6 +12,7 @@
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.8.0",
+    "react-jinke-music-player": "^4.7.1",
     "react-media-visualizer": "^1.1.1",
     "react-player": "^1.14.2",
     "react-scripts": "^1.1.4",
