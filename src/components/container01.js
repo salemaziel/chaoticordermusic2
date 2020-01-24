@@ -7,7 +7,7 @@ import TContentCards02 from './tcontentcardsrow2'
 
 //import ReactWebMediaPlayer from 'react-web-media-player';
 import Chemtrails from '../images/song-art/Chemtrails.jpg'
-import Chemtrailsmp3 from '../audio/1-Chemtrails.mp3'
+//import Chemtrailsmp3 from '../audio/1-Chemtrails.mp3'
 import Logowhite from '../images/logo-white.png'
 
 import Visualizer from './visualizer'
